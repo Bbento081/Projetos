@@ -1,0 +1,88 @@
+body{
+    background: rgb(12, 20, 83);
+    color: #fff;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+}
+section{
+    background: #120085;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+.btn{
+    padding: 10px;
+}
+
+#calc{
+    height: 30px;
+    width: 112px;
+    transition: transform 0.3s;
+    font-size: 17px;
+    font-family: inherit;
+    border-radius: 2px;
+    border: 0px solid;
+}
+#calc:hover{
+    transform: scale(0.9);
+}
+
+#clean{
+    height: 30px;
+    width: 112px;
+    background: red;
+    border: 0px solid;
+    transition: transform 0.3s;
+    font-size: 17px;
+    font-family: inherit;
+    border-radius: 2px;
+}
+#clean:hover{
+    transform: scale(0.9);
+}
+
+.alt{
+    margin-right: 160px;
+}
+
+
+.peso{
+    margin-right: 160px;
+}
+
+#alt{
+    height: 25px;
+    width: 220px;
+    transition: transform 0.3s;
+}
+#alt:focus{
+    transform: scale(1.05);
+}
+
+#pes{
+    height: 25px;
+    width: 220px;
+    transition: transform 0.3s;
+}
+#pes:focus{
+    transform: scale(1.05);
+}
+
+hr {
+    border: none; 
+    height: 2px; 
+    background-color: rgb(0, 0, 0); 
+}
+
+.space{
+    padding: 8px;
+}
+
+
+
